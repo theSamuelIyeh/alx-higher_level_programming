@@ -11,4 +11,3 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d}".format(matrix[list1][list2]))
             else:
                 print("{:d}".format(matrix[list1][list2]), end=" ")
-print_matrix_integer()
