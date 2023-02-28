@@ -7,5 +7,5 @@ if __name__ == "__main__":
                 print("{:d}".format(my_list[i]), end='')
                 count += 1
             print()
-        except Exception:
+        except IndexError:
             return count
