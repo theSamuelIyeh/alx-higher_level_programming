@@ -8,5 +8,6 @@ if __name__ == "__main__":
                 count += 1
             print()
         except IndexError:
+            print()
             return count
             pass
